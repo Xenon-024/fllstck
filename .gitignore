@@ -1,7 +1,8 @@
 # 服务器敏感信息（含 SSH 密码，切勿提交）
 server.txt
 
-# SillyTavern 运行时数据
-config/
+# SillyTavern 运行时数据（仅保留配置模板）
+config/*
+!config/config.yaml.example
 data/
 plugins/
