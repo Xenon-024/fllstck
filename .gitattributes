@@ -1,0 +1,2 @@
+# 脚本文件强制 LF 行尾，确保 Linux 服务器可直接执行
+*.sh text eol=lf
